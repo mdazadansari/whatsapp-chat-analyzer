@@ -3,6 +3,9 @@ import preprocessor,helper
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+
+st.set_page_config(page_title="Whatsapp Chat Analyzer", layout="wide", )
+st.title("Welcome To Whatsapp Chat Analyzer")
 st.sidebar.title("Whatsapp Chat Analyzer")
 
 uploaded_file = st.sidebar.file_uploader("Choose a file")
